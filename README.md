@@ -1,6 +1,6 @@
 # `Desafio - EloGroup`
 
-O Projeto foi criado utilizando o framework React.
+O projeto foi realizando utilizando o framework React.
   
   `O Projeto inclui:` 
 
