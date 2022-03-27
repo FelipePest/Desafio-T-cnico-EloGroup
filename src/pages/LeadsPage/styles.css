@@ -1,0 +1,115 @@
+#leads {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    max-height: 100vh;
+    padding: 1 1rem;
+}
+
+#leads .form .header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#leads .form .header h1{
+    color: black;
+    margin-left: 1rem;
+}
+
+#img{
+    width: 255px;
+}
+#leads .form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    max-width: 480px;
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+#leads .form .newlead{
+    display: flex;
+    flex-direction: row;
+}
+
+#leads .form .newlead .campos{
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+#leads .form .newlead .campos .field{
+    padding-left: 12.5%;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+#leads .form .newlead .campos .field label{
+    display: block;
+}
+
+#leads .form .newlead .campos .field input{
+    width: 165%;
+    border: 1px solid black;
+}
+
+#leads .form .newlead .campos .field input:focus{
+    width: 165%;
+    border: 1px solid black;
+    background-color: #e5e5e5;
+    opacity: 0.5;
+    outline: none;
+}
+
+#leads .checklist{
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+#leads .checklist label[for = oportunidades]{
+    margin-left: 5%;
+}
+
+#leads .form  .newlead .checklist .checkboxes{
+    margin-top: 4%;
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+}
+
+#leads .form .newlead .checklist .checkboxes label {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    background-color: white;
+    padding: 0.3rem;
+}
+
+#leads .form .newlead .checklist .checkboxes label[for = "BPM"]{
+    border-bottom: 1px solid black;
+}
+
+#leads .form .newlead .checklist .checkboxes button{
+    display: inline-block;
+    background-color: #272727;
+    border: 2px solid #272727;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 1rem;
+    width: 140px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+}

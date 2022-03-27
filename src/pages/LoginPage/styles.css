@@ -1,0 +1,70 @@
+html{
+    background-color: #272727;
+}
+#login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh;
+    padding: 1 2rem;
+
+}
+
+#login .form{
+    background-color: white;
+    width: 100%;
+    max-width: 480px;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 12%;
+    border: 1px solid white;
+}
+
+#login .field{
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+#login .field label{
+    text-align: start;
+    display: block;
+}
+
+#login .field input{
+    width: 98%;
+    border: 1px solid black;
+}
+
+#login .field input:focus{
+    width: 98%;
+    border: 1px solid black;
+    background-color: #e5e5e5;
+    opacity: 0.5;
+    outline: none;
+}
+
+#img{
+    width: 255px;
+}
+
+#login .actions{
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+#login .actions button{
+    display: inline-block;
+    background-color: #272727;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 100px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+}

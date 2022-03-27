@@ -1,0 +1,69 @@
+#register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh;
+    padding: 1 2rem;
+}
+#register h1{
+    color: black;
+}
+#register .form{
+    margin-top: 11%;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    max-width: 480px;
+    padding: 1.5rem;
+    border: 1px solid #d5d5d5;
+}
+
+#register .field{
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+#register .field label{
+    text-align: start;
+    display: block;
+}
+
+#register .field input{
+    width: 98%;
+    border: 1px solid black;
+}
+
+#register .field input:focus{
+    width: 98%;
+    border: 1px solid black;
+    background-color: #e5e5e5;
+    opacity: 0.5;
+    outline: none;
+}
+
+#register .rules{
+    margin-top: 0rem;
+    text-align: start;
+}
+
+#register .actions{
+    text-align: center;
+    margin-top: 0.8rem;
+}
+
+#register .actions button{
+        display: inline-block;
+        background-color: #272727;
+        border: 2px solid white;
+        color: white;
+        text-align: center;
+        font-size: 15px;
+        padding: 10px;
+        width: 150px;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        cursor: pointer;
+}
